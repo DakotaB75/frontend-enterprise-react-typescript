@@ -27,7 +27,7 @@ This project is designed as a **technical verification artifact**, not a tutoria
 ---
 
 ## Architecture Overview
-![Frontend Architecture Diagram](diagrams/frontend-architecture.png)
+![Frontend Architecture Diagram](diagrams/frontend-architecture1.png)
 This structure mirrors how frontend teams operate at scale, where multiple squads work independently on well-defined domains.
 
 ## Technology Stack
