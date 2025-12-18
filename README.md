@@ -1,12 +1,9 @@
-![Build](https://github.com/TU_USER/TU_REPO/actions/workflows/ci.yml/badge.svg)
-![Tests](https://github.com/TU_USER/TU_REPO/actions/workflows/tests.yml/badge.svg)
-![E2E](https://github.com/TU_USER/TU_REPO/actions/workflows/e2e.yml/badge.svg)
-![CodeQL](https://github.com/TU_USER/TU_REPO/actions/workflows/codeql.yml/badge.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue)
-![React](https://img.shields.io/badge/React-18-blue)
-![Testing](https://img.shields.io/badge/Testing-Jest%20%7C%20Playwright-green)
-![Architecture](https://img.shields.io/badge/Architecture-Enterprise--Scale-success)
+![CI](https://github.com/DakotaB75/frontend-enterprise-react-typescript/actions/workflows/ci.yml/badge.svg)
+![Tests](https://github.com/DakotaB75/frontend-enterprise-react-typescript/actions/workflows/tests.yml/badge.svg)
+![E2E](https://github.com/DakotaB75/frontend-enterprise-react-typescript/actions/workflows/e2e.yml/badge.svg)
+![CodeQL](https://github.com/DakotaB75/frontend-enterprise-react-typescript/actions/workflows/codeql.yml/badge.svg)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Version](https://img.shields.io/badge/version-v1.0.0-green)
 
 ## Overview
 
@@ -79,6 +76,18 @@ where performance, accessibility, and reliability are first-class concerns.
 - Show decision-making beyond code syntax
 - Reflect how real teams work in production
 - Serve as a reference for enterprise frontend design
+
+---
+
+## Package Strategy
+
+This repository is designed to be compatible with internal package
+distribution strategies (GitHub Packages / private registries).
+
+While no public package is published, the structure supports:
+- Shared UI libraries
+- Internal design systems
+- Versioned frontend modules
 
 ---
 
