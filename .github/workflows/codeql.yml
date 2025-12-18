@@ -4,9 +4,17 @@ on:
   push:
     branches: [ main ]
   pull_request:
+  schedule:
+    - cron: '0 3 * * 0'
+
+permissions:
+  actions: read
+  contents: read
+  security-events: write
 
 jobs:
   analyze:
+    name: Analyze
     runs-on: ubuntu-latest
 
     steps:
@@ -14,6 +22,6 @@ jobs:
 
       - uses: github/codeql-action/init@v3
         with:
-          languages: javascript,typescript
+          languages: javascript
 
       - uses: github/codeql-action/analyze@v3
